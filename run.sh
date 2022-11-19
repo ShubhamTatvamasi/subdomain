@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 domain=shubhamtatvamasi.com
 maxlength=253
@@ -17,4 +17,3 @@ if [ "$domainlength" -le "$maxlength" ]; then
 else
   echo "Your domain is too long. It can be max of $maxlength characters."
 fi
-
